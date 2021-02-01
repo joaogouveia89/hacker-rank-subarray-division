@@ -22,14 +22,20 @@ d02 = data[2].split(" ")[0].to_i
 m02 = data[2].split(" ")[1].to_i
 
 # problem application
+start = Time.now
 response00 = birthday s00, d00, m00
 response01 = birthday s01, d01, m01
 response02 = birthday s02, d02, m02
+finish = Time.now
+
+puts("solved all the test cases in " + (1000 * (finish - start)).round(2).to_s + "ms")
 
 #expected outputs
+start = Time.now
 output00File = File.open("../../test-cases/output/output00.txt")
 output01File = File.open("../../test-cases/output/output01.txt")
 output02File = File.open("../../test-cases/output/output02.txt")
+
 
 data = output00File.map(&:chomp)
 output00 = data[0].to_i
