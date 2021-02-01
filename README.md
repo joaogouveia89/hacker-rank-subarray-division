@@ -1,6 +1,11 @@
 # Subarray division - Hacker Rank platform problem
 Solutions in Java, Kotlin and Ruby
-## Problem description
+
+### Strategy
+
+> Sliding Window algorithm 
+
+### Problem description
 
 Given a chocolate bar, two children, Lily and Ron, are determining how to share it. Each of the squares has an integer on it.
 
