@@ -1,7 +1,7 @@
 require 'colorize'
 require './birthday'
 
-#input
+#input parsing and reading
 input00 = File.open("../../test-cases/input/input00.txt")
 input01 = File.open("../../test-cases/input/input01.txt")
 input02 = File.open("../../test-cases/input/input02.txt")
