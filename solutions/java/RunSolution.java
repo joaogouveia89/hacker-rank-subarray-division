@@ -37,7 +37,11 @@ public class RunSolution{
 
 		while((st = brInput00.readLine()) != null){
 			if(currentLine == 1){
-				s00 = Arrays.stream(st.split(" ")).mapToInt(Integer::parseInt).toArray();
+				s00 = Arrays
+						.stream(st.split(" "))
+						.mapToInt(Integer::parseInt)
+						.toArray();
+
 			}else if(currentLine == 2){
 				lineSplit = st.split(" ");
 				d00 = Integer.parseInt(lineSplit[0]);
@@ -50,7 +54,11 @@ public class RunSolution{
 
 		while((st = brInput01.readLine()) != null){
 			if(currentLine == 1){
-				s01 = Arrays.stream(st.split(" ")).mapToInt(Integer::parseInt).toArray();
+				s01 = Arrays
+						.stream(st.split(" "))
+						.mapToInt(Integer::parseInt)
+						.toArray();
+						
 			}else if(currentLine == 2){
 				lineSplit = st.split(" ");
 				d01 = Integer.parseInt(lineSplit[0]);
